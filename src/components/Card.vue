@@ -10,7 +10,18 @@ defineProps({
 </script>
 
 <template>
-  <div class="relative block bg-white" @click="$emit('addItem', item)">
+  <div
+    class="
+      relative
+      block
+      shadow-md
+      hover:shadow-xl
+      rounded-lg
+      bg-white
+      hover:ring-1 hover:ring-secondary
+    "
+    @click="$emit('addItem', item)"
+  >
     <div class="p-1 rounded-lg">
       <img
         loading="lazy"

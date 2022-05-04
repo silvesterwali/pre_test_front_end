@@ -1,6 +1,16 @@
 <template>
   <div class="block" @click="$emit('removeItem', index)">
-    <div class="flex items-start mt-2 p-2 rounded-lg shadow-md hover:shadow-lg">
+    <div
+      class="
+        flex
+        items-start
+        mt-2
+        p-2
+        rounded-lg
+        shadow-md
+        hover:shadow-lg hover:ring-1 hover:ring-secondary
+      "
+    >
       <img
         class="object-cover w-16 h-20 rounded-sm"
         :src="itemCart.image"

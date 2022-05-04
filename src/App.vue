@@ -176,32 +176,24 @@ watch(modal, (value) => {
     <section>
       <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:items-start">
-          <div class="lg:col-span-3 max-h-screen">
+          <div class="lg:col-span-3 max-screen">
             <h1 class="font-medium text-4xl">Pizza List</h1>
             <div
-              class="
-                grid grid-cols-1
-                gap-px
-                mt-4
-                bg-gray-200
-                border border-gray-200
-                sm:grid-cols-2
-                lg:grid-cols-3
-              "
+              class="grid grid-cols-1 gap-2 mt-4 sm:grid-cols-2 lg:grid-cols-3"
             >
               <div v-for="(item, index) in items" :key="index">
                 <Card :item="item" @addItem="addItem"></Card>
               </div>
             </div>
           </div>
-          <div class="lg:sticky lg:top-4 bg-white p-2 rounded-sm h-screen">
-            <h1 class="font-lg text-2xl">Card</h1>
+          <div class="lg:sticky lg:top-4 bg-white p-3 rounded-lg">
+            <h1 class="font-lg text-2xl">Cart</h1>
             <div
-              class="h-56 text-center flex items-center"
+              class="h-36 text-center flex items-center"
               v-if="!cardItems.length"
             >
               <span class="items-center">
-                The Shopping card is still empty,click item to add to card
+                The Shopping cart is still empty,click item to add to card
               </span>
             </div>
             <div v-else class="mb-5">
