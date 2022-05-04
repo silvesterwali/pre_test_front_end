@@ -139,6 +139,8 @@ watch(modal, (value) => {
         p-4
         mx-auto
         border-b-2
+        bg-secondary
+        text-white
       "
     >
       <a
@@ -153,7 +155,7 @@ watch(modal, (value) => {
         "
         href="/"
       >
-        👋
+        Pizza
       </a>
 
       <ul class="flex items-center space-x-2 text-sm font-medium text-gray-500">

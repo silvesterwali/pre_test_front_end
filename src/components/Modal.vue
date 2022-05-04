@@ -8,11 +8,11 @@
       flex
       items-center
       justify-center
-      bg-gray-700 bg-opacity-50
+      bg-black bg-opacity-50
       shadow-lg
     "
   >
-    <div class="max-w-2xl p-6 mx-4 bg-white rounded-sm shadow-xl">
+    <div class="max-w-3xl p-6 mx-4 bg-white rounded-sm shadow-xl">
       <div class="flex items-center justify-between">
         <h1 class="text-2xl">{{ title }}</h1>
         <svg
