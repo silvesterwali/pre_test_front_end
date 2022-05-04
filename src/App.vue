@@ -215,7 +215,7 @@ watch(modal, (value) => {
             </div>
 
             <div
-              class="flex justify-between bg-black text-white rounded-sm p-2"
+              class="flex justify-between bg-black text-white rounded-lg p-2"
             >
               <span>Total</span> <span>${{ totalPrice }}</span>
             </div>
